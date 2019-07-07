@@ -2,8 +2,8 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  current = 100
-  outcome = ""
+  current = nil
+  outcome = nil
   if name_hash == {}
     outcome = nil
   else
